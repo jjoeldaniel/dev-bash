@@ -1,9 +1,7 @@
 #!/usr/bin/env bash
 
 name="Joel"
-echo "Hello, "${name}""
+echo "Hi, I'm ${name}"
 
-# Functionally equivalent
-sum_of_nums=$(echo "2+2" | bc)
-sum_of_nums=$((2 + 2))
-echo "${sum_of_nums}"
+read -p "Enter your name: " your_name
+echo "Hello, ${your_name}"
